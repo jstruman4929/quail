@@ -71,7 +71,7 @@ public class SwerveDrive<T extends SwerveModuleBase> {
    * @param rotationSpeed speed of rotation
    * @param centerPoint modified center of rotation. Pass in Vec2d(0, 0) for default center of
    *     rotation
-   * @param gyroAngle the gyro's rotation in radian
+   * @param gyroAngle the gyro's rotation in radians
    */
   public Vec2d[] calculateMoveAngles(
       Vec2d moveVector, double rotationSpeed, double gyroAngle, Vec2d centerPoint) {
